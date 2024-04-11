@@ -12,6 +12,6 @@
         public int Radek { get; private set; }
         public int Sloupec { get; private set; }
         public int StyleClassIndex { get; set; } = 0;
-        public string StyleClassName => $"barva-{StyleClassIndex}";
+        public virtual string StyleClassName => $"barva-{StyleClassIndex}";
     }
 }
